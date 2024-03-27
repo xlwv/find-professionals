@@ -64,7 +64,7 @@ const Content = () => {
                     </div>
                 )}
 
-                <button onClick={toggleDropdown} className="dropbtn4 ">Rating<FaAngleDown style={{ alignItems:'center' }} /></button>
+                <button onClick={toggleDropdown} className="dropbtn4 ">Rating<FaAngleDown style={{ horizontalAlign: 'middle'  }} /></button>
                 {isDropdownOpen && (
                     <div className="dropdown-content">
                         {/* <a href="#"className='find-options'>1</a>
@@ -72,6 +72,7 @@ const Content = () => {
                                 <a href="#"className='find-options'>3</a> */}
                     </div>
                 )}
+
 
                 <button onClick={toggleDropdown} className="dropbtn5 ">Experience<FaAngleDown style={{ horizontalAlign: 'middle' }} /></button>
                 {isDropdownOpen && (
@@ -126,7 +127,7 @@ const Content = () => {
                                             <div className='score'>{starCount}.0</div>
                                             <div className='stars'>
                                                 {[...Array(starCount)].map((_, index) => (
-                                                    <MdOutlineStar key={index} style={{ color: 'yellow', marginRight: '2px' }} />
+                                                    <MdOutlineStar key={index} style={{ color: 'gold', marginRight: '2px' }} />
                                                 ))}
                                             </div>
                                             <div className='reviews'>75 reviews</div>
@@ -139,7 +140,7 @@ const Content = () => {
                                     <HiMail style={{ height: '16px', width: '16px', alignItems: 'center' }} />Send Message </button></div>
 
                             <div className='location'>
-                                <div className='years'><MdBusinessCenter style={{ color: '#007562', height: '15px', width: '12px' }} />15 years in business </div>
+                                <div className='years'><MdBusinessCenter style={{ color: '#007562', height: '15px', width: '12px',  }} />15 years in business </div>
                                 <div className='address'> <FaLocationDot style={{ color: '#666666', height: '20px', width: '15px', marginRight: '8px' }} />P.O. Box 35148, Ottawa, Ontario, Canada</div>
                             </div>
                             <div className='about'>
@@ -165,7 +166,7 @@ const Content = () => {
                                             <div className='score'>{starCount}.0</div>
                                             <div className='stars'>
                                                 {[...Array(starCount)].map((_, index) => (
-                                                    <MdOutlineStar key={index} style={{ color: 'yellow', marginRight: '2px' }} />
+                                                    <MdOutlineStar key={index} style={{ color: 'gold', marginRight: '2px' }} />
                                                 ))}
                                             </div>
                                             <div className='reviews'>75 reviews</div>
@@ -175,7 +176,7 @@ const Content = () => {
                                 </div>
 
                                 <button className='message' style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center' }}>
-                                    <HiMail style={{ height: '16px', width: '16px', alignItems: 'center' }} />Send Message </button></div>
+                                    <HiMail style={{ height: '16px', width: '16px', alignItems: 'center',color: '#994B00'}} />Send Message </button></div>
 
                             <div className='location'>
                                 <div className='years'><MdBusinessCenter style={{ color: '#007562', height: '15px', width: '12px' }} />15 years in business </div>
@@ -204,7 +205,7 @@ const Content = () => {
                                             <div className='score'>{starCount}.0</div>
                                             <div className='stars'>
                                                 {[...Array(starCount)].map((_, index) => (
-                                                    <MdOutlineStar key={index} style={{ color: 'yellow', marginRight: '2px' }} />
+                                                    <MdOutlineStar key={index} style={{ color: 'gold', marginRight: '2px' }} />
                                                 ))}
                                             </div>
                                             <div className='reviews'>75 reviews</div>

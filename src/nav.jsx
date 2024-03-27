@@ -36,7 +36,7 @@ const NavBar = () => {
             <div className="navbar">
                 <div className=' logo '></div>
                 <div className='findpro-dropdown'>
-                    <button onClick={toggleDropdown} className="dropbtn ">Find Professionals<FaAngleDown style={{ verticalAlign: 'middle' }} /></button>
+                    <button onClick={toggleDropdown} className="dropbtn ">Find Professionals<FaAngleDown style={{ verticalAlign: 'middle',width:'10px',height:'24px',fontWeight:'lighter',gap:'20px' }} /></button>
                     {isDropdownOpen && (
                         <div className="dropdown-content">
                             <a href="#"className='find-options'>1</a>
@@ -70,8 +70,8 @@ const NavBar = () => {
                 
             </div>
             <div className='hero-text'>
-            <span><h1>Get Matched with manufacturer</h1></span>
-            <span><h3>Find the Best Leather manufacturer for Your Needs. Get Matched Quickly and Easily</h3></span>
+            <span className='line1'>Get Matched With Manufacturer</span>
+            <span className='line2'>Find The Best Leather Manufacturer For Your Needs. Get Matched Quickly And Easily</span>
             </div>
             
 
